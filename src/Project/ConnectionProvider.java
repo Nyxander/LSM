@@ -1,9 +1,6 @@
 package Project;
 import java.sql.*;
-/**
- *
- * @author User
- */
+
 public class ConnectionProvider {
      public static Connection getCon(){
          try{
