@@ -1,12 +1,5 @@
-/**
- *
- * @author User
- */
-public class home extends javax.swing.JFrame {
 
-    /**
-     * Creates new form home
-     */
+public class home extends javax.swing.JFrame {
     public home() {
         initComponents();
         setExtendedState(MAXIMIZED_BOTH);
@@ -57,7 +50,7 @@ public class home extends javax.swing.JFrame {
         });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 80, -1, -1));
 
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/6.png"))); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/5.png"))); // NOI18N
         jButton4.setText("Issues");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -66,7 +59,7 @@ public class home extends javax.swing.JFrame {
         });
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 80, -1, -1));
 
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/5.png"))); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\KursiJava\\LSM\\src\\6.png")); // NOI18N
         jButton5.setText("Log out");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,7 +68,7 @@ public class home extends javax.swing.JFrame {
         });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1300, 80, -1, -1));
 
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/4.png"))); // NOI18N
+        jButton7.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\KursiJava\\LSM\\src\\4.png")); // NOI18N
         jButton7.setText("Return books");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

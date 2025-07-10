@@ -11,6 +11,6 @@ public class LibraryManagementSystem {
      */
     public static void main(String[] args) {
        
-        EventQueue.invokeLater(() -> new home().setVisible(true));
+        EventQueue.invokeLater(() -> new Login().setVisible(true));
 }
 }
